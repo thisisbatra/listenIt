@@ -1,0 +1,30 @@
+.bContainer{
+    width: 100%;
+    padding: 1rem;
+}
+.sContainer{
+    width: 100%;
+    background-color: lightgrey;
+    height: fit-content;
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 4rem;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+.sContainer2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 450px));
+    gap: 2.1rem;
+}
+.result{
+    position: relative;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+}
